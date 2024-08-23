@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyre Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="https://cdn.tyreplex.net/themes/moonlight/images/TP-logo.png?tr=w-150,q-60" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Car Tyres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bike Tyres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tyre Pressure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Commercial Tyres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Accessories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">More</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Tyre Shop Details Section -->
+    <section class="container my-5" >
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Tyre Shop Name</h2>
+                <p><strong>Address:</strong> 1234 Street Name, City, Country</p>
+                <p><strong>Google Reviews:</strong> ★★★★☆ (4.5/5)</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus neque id suscipit volutpat.</p>
+            </div>
+            <div class="col-md-6">
+                <!-- Google Maps Embed -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.839888373246!2d144.96305771531687!3d-37.81410797975148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d9f722e3a9b0!2sGoogle!5e0!3m2!1sen!2sau!4v1625368830266!5m2!1sen!2sau"
+                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tyre Brands Carousel -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">We Deals In</h2>
+        <div id="tyreBrandsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://robert-parker-michelin-bk-stage.s3.amazonaws.com/media/image/2017/08/22/513753c65ffd45659a2c0950e4531b4e_michelin-logo.jpg" class="d-block w-100" alt="Brand 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.trucktyresdirect.co.uk/wp-content/uploads/2021/07/Alliance-Banner-desktop-1024x211.jpg" class="d-block w-100" alt="Brand 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/2c919b36737053.5727be560a798.jpg" class="d-block w-100" alt="Brand 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://jktyre.com/images/new/JKTyreIndustries.jpg" class="d-block w-100" alt="Brand 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.apollotyres.com/content/dam/orbit/logos/apollo-tyres-brand-logo.png" class="d-block w-100" alt="Brand 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/CEAT_Logo.svg/822px-CEAT_Logo.svg.png?20100224173219" class="d-block w-100" alt="Brand 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://logo-logos.com/2016/11/Yokohama_logo.png" class="d-block w-100" alt="Brand 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#tyreBrandsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#tyreBrandsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Our Services</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                    <div class="card p-3 mb-4" style="width: 18rem;">
+                        <img src="https://productimages.withfloats.com/tile/5f8f1b87090d6b00019acdc0.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Tyre Installation</h5>
+                          <p class="card-text">Professional installation of tyres for all vehicle types.</p>
+                        </div>
+                      </div>
+            </div>
+            <div class="col-md-4">
+                    <div class="card p-3 mb-4" style="width: 18rem;">
+                        <img src="https://kiamotors-portqasim.com/wp-content/uploads/2020/02/Wheel-Alignment-and-Balancing.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Wheel Alignment</h5>
+                          <p class="card-text">Ensure your wheels are perfectly aligned for optimal performance..</p>
+                        </div>
+                      </div>
+            </div>
+            <div class="col-md-4">
+                    <div class="card p-3 mb-4" style="width: 18rem;">
+                        <img src="https://www.fundityres.co.za/media/wysiwyg/BDB/Tyre_Repair/Tyre-Repair.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Tyre Repair</h5>
+                          <p class="card-text">Quick and efficient tyre repair services..</p>
+                        </div>
+                      </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tyre Types Section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Tyres We Sell</h2>
+        <div class="row text-center">
+            <div class="col-md-3">
+                <div class="card p-3 mb-4">
+                    <img src="https://cdn.media.halfords.com/i/washford/vector4seasonsg2suv/Vector-4Seasons-G2-SUV.webp?fmt=auto&qlt=default&$sfcc_tile$&w=680" class="card-img-top" alt="Tyre 1">
+                    <div class="card-body">
+                        <h5 class="card-title">All-Season Tyres</h5>
+                        <p class="card-text">Perfect for year-round driving.</p>
+                    </div>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary" style="margin-left:-90px">
+                        Range between RS '7999 - 15000'
+                      </span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-3 mb-4">
+                    <img src="https://www.kwik-fit.com/assets/blog/BC1000080.jpg" class="card-img-top" alt="Tyre 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Winter Tyres</h5>
+                        <p class="card-text">Designed for harsh winter conditions.</p>
+                    </div>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary" style="margin-left:-90px">
+                        Range between RS '7999 - 15000'
+                      </span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-3 mb-4">
+                    <img src="https://images.jdmagicbox.com/quickquotes/images_main/high-performance-tyre-2215933827-zxiwbecj.jpg" class="card-img-top" alt="Tyre 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Performance Tyres</h5>
+                        <p class="card-text">For high-speed and performance vehicles.</p>
+                    </div>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary" style="margin-left:-90px">
+                        Range between RS '7999 - 15000'
+                      </span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-3 mb-4">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2023/7/328794727/II/TD/JQ/12069884/-bfgoodrich-ko2-all-terrain-315-70-r17-tubeless-car-tyre-500x500.png" class="card-img-top" alt="Tyre 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Off-Road Tyres</h5>
+                        <p class="card-text">Ideal for off-road adventures.</p>
+                    </div>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary" style="margin-left:-90px">
+                        Range between RS '7999 - 15000'
+                      </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Tyre Shop. All Rights Reserved.</p>
+        <p>Follow us on:
+            <a href="#" class="text-white"><i class='bx bxl-facebook-square bx-lg' ></i></a> |
+            <a href="#" class="text-white"><i class='bx bxl-twitter bx-lg' ></i></a> |
+            <a href="#" class="text-white"><i class='bx bxl-instagram-alt bx-lg' ></i></a>
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</body>
+
+</html>
